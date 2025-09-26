@@ -4,59 +4,31 @@
     box-sizing: border-box;
 }
 
-/* .container{
-    top: 20px;
-    left: 50px;
-    width: 400px;
-    height: 400px;
-    background: #af1e7f;
+.container{
+    position: relative
 }
 
-.box{
-     O Absoluto permite me mover dentro do pai (container/quadrado maior) */
-    /* position: absolute;
-    right: 1550px;
-    top: 200px;
-    width: 200px;
-    height: 200px;
-    background: #c44dbe;
-} */ 
-
-.container2{
-    position: relative;
-    top: 20px;
-    right: 100px;
-    width: 800px;
-    height: 800px;
-    background: #505050;
+main{
+    display: flex;
 }
 
-.circulo01, .circulo02, .circulo03{
-    position: absolute;
-    border-radius: 100%;
-}
-.circulo01{
-    width: 250px;
-    height: 250px;
-    right: 400px;
-    left: 434px;
-    bottom: 172px;
-    background: #235fa5;
+.titulo{
+   
 }
 
-.circulo02{
-    width: 350px;
-    height: 350px;
-    bottom: 170px;
-    left: 200px;
-    background: #e9e775;
-    z-index: 1;
+.subtitulo{
+
 }
 
-.circulo03{
-    width: 400px;
-    height: 400px;
-    left: 350px;
-    bottom: 310px;
-    background: #963091;
+.prazo{
+
+}
+
+.texto{
+    color: black;
+}
+
+.container-img{
+    justify-content: flex-start;
+    
 }
