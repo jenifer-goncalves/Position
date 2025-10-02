@@ -5,30 +5,92 @@
 }
 
 .container{
-    position: relative
+    position: absolute;
+    width: 1400px;
+    height: 900;
 }
 
 main{
     display: flex;
+    
 }
 
 .titulo{
-   
+    font-family: Arial;
+    font-size: 70px;
+    right: 100px;
+    color: #F00;
+    text-align: right;
+    font-family: Assistant;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .subtitulo{
-
+    text-align: right;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .prazo{
+    text-align: right;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    bottom: 50px;
 
 }
 
 .texto{
     color: black;
+    text-align: right;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.81px;
+    padding-bottom: 15px;
+}
+
+.cadastro{
+    color: #fff;
+    background-color: #F00;
+    padding: 10px;
+    text-align: right;
+    font-family: arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.sesi{
+    position: absolute;
+    bottom: 70px;
+    right: 320px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.senai{
+    position: absolute;
+    bottom: 70px;
+    right: 170px;
+    width: 100px;
+    height: 100px;
+    
+    
 }
 
 .container-img{
-    ;
-    
+    z-index: 10;
 }
